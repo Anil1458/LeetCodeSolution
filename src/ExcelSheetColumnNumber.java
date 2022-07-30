@@ -1,4 +1,7 @@
 public class ExcelSheetColumnNumber {
+    /*
+    * This method is converting the excel sheet title to number
+    * */
     public int titleToNumber(String str) {
         str.toUpperCase();
         int len = str.length();
